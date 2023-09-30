@@ -45,7 +45,8 @@ main {
   align-items: center;
   justify-content: space-between ;
   width: 100%;
-  padding: 24px
+  padding: 24px;
+  font-family: sans-serif
 }
 
 .menu-options {
@@ -148,37 +149,45 @@ button {
   color: #000000;
 }
 
-
-.table-display {
-  display: table;
-  width: 100%;
-}
-.cell-display {
-  display: table-cell;
-}
-.div1, .div2, .div3, .div4 {
-  padding: 100px;
-}
-.div1 {
-  background: #ABC;
-  padding: 200px;
-}
-.div2 {
-  background: #DEF;
-}
-.div3 {
-  background: #CAD;
-}
-.div4 {
-  background: #FAD;
+.my-element {
+  margin: 30px;
+  background: #ffffff;
+  border-radius: 30px;
+  grid-template-columns: 200px 200px 200px;
+  padding: 150px;
+  color: #000000;
+  display: grid;
+  gap: 220px;
 }
 
-.content-container {
-  display: flex; /* Adicione esta linha para usar flexbox */
-  flex-direction: column; /* Isso garante que o conteúdo seja empilhado verticalmente */
-  align-items: center; /* Isso centraliza verticalmente o conteúdo */
-  justify-content: center; /* Isso centraliza horizontalmente o conteúdo (opcional) */
+.box1 {
+  padding-top: 80px;
+  align-items: center;
+  display: block;
 
-  width: 100%;
-  position: relative;
+}
+
+h1 span {
+ font-size: 20px;
+}
+
+
+.box3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px; /* Certifique-se de definir largura e altura iguais para que a imagem fique perfeitamente circular */
+  overflow: hidden; /* Adicione overflow: hidden para cortar a imagem que estiver fora do círculo */
+}
+
+.box3 img {
+  max-width: 100%; /* Para garantir que a imagem não ultrapasse o círculo */
+  height: auto;
+  border-radius: 50%;
+}
+
+.who {
+  padding-top: 80px;
 }
