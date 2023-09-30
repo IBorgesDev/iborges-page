@@ -149,21 +149,24 @@ button {
   color: #000000;
 }
 
-.my-element {
+.my-element { 
+  align-items: center;
+  justify-content: center;
   margin: 30px;
   background: #ffffff;
-  border-radius: 30px;
-  grid-template-columns: 200px 200px 200px;
-  padding: 150px;
+  border-radius: 15px;
+  grid-template-columns: 120px 120px 120px;
+  
   color: #000000;
   display: grid;
   gap: 220px;
 }
 
 .box1 {
-  padding-top: 80px;
+
+
   align-items: center;
-  display: block;
+
 
 }
 
@@ -189,5 +192,5 @@ h1 span {
 }
 
 .who {
-  padding-top: 80px;
+  
 }
