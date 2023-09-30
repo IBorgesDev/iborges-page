@@ -138,9 +138,10 @@ button {
 }
 
 .logo {
-  border-radius: 30px;
+  width: 150px; /* Defina a largura desejada */
+  height: 100px; /* Defina a altura desejada */
+  border-radius: 30px; /* Se você deseja bordas arredondadas */
   cursor: pointer;
-
 }
 
 .logo:hover {
@@ -170,4 +171,14 @@ button {
 }
 .div4 {
   background: #FAD;
+}
+
+.content-container {
+  display: flex; /* Adicione esta linha para usar flexbox */
+  flex-direction: column; /* Isso garante que o conteúdo seja empilhado verticalmente */
+  align-items: center; /* Isso centraliza verticalmente o conteúdo */
+  justify-content: center; /* Isso centraliza horizontalmente o conteúdo (opcional) */
+
+  width: 100%;
+  position: relative;
 }
