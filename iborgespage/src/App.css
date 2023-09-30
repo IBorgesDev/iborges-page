@@ -115,7 +115,7 @@ button {
 }
 
 .glow-on-hover:hover:before {
-  content: '';
+  opacity: 1;
 }
 
 .glow-on-hover:after {

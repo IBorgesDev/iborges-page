@@ -14,16 +14,6 @@ function App() {
         </nav>
         <button className="glow-on-hover" type="button">Contact me!</button>
       </header>
-      
-      <div className="div1">
-        <div className="table-display">
-          <div className="cell-display div2"></div>
-          <div className="cell-display">
-            <div className="div3"></div>
-            <div className="div4"></div>
-          </div>
-        </div>
-      </div>
     </main>
   );
 }
